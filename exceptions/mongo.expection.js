@@ -2,7 +2,7 @@ const BaseException = require('./base.exception');
 
 class MongoException extends BaseException {
 	constructor(param) {
-		super(`Bad request: ${param}`, 'PARAM_ERROR', 500);
+		super(param, `Bad request: `, 'PARAM_ERROR', 500);
 	}
 }
 

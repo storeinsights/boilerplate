@@ -2,7 +2,7 @@ const BaseException = require('./base.exception');
 
 class InvalidAuthenticationException extends BaseException {
     constructor(authentication) {
-        super(`Bad request: Invalid Authentication ${authentication}`, 'AUTHENTICATION_ERROR', 401);
+        super(authentication,`Bad request: Invalid Authentication `, 'AUTHENTICATION_ERROR', 401);
     }
 }
 
