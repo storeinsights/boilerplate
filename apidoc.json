@@ -1,0 +1,21 @@
+{
+  "name": "SAMPLE SERVICE",
+  "version": "1.0.0",
+  "description": "SAMPLE SERVICE",
+  "title": "SAMPLE API DOCUMENTATION",
+  "url" : "https://console.neo.com",
+  "sampleUrl": "https://console.neo.com",
+  "header": {
+    "title": "Introduction",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Closing",
+    "filename": "footer.md"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true,
+    "aloneDisplay": false
+  }
+}

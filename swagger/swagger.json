@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "Sample Service",
+      "version": "v1",
+      "title": "SAMPLE SERVICE",
+      "contact": {
+        "email": "mitchelle.creado@neo-wealth.com"
+      }
+    },
+    "host": "3.108.51.242:8007",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "SAMPLE SERVICE",
+        "description": "GET API for SAMPLESERVICE"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+    },
+    "definitions": {
+    }
+  }

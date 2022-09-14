@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = []
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model eq_cmot_company_master {
+ id String @id @default(auto()) @map("_id") @db.ObjectId
+ co_code String?
+ BSECode String?
+ NSESymbol String?
+ CompanyName String?
+ CompanyShortName String?
+ CategoryName String?
+ isin String?
+ mcaptype String?
+ SectorCode String?
+ BSEGroup String?
+ SectorName String?
+ NSEListed String?
+ BSEListed String?
+ DisplayType String?
+}

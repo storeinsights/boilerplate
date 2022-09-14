@@ -1,0 +1,8 @@
+//your boilerplate config come here
+module.exports = {
+    APPLICATION_NAME: 'SAMPLE_SERVICE',
+    CONSOLE_LOG : true,
+    REQUEST_RESPONSE_LOGGER : 'SAMPLE_REQUEST_RESPONSE_LOGGER',
+    SERVICE_CALL_LOGGER : 'SAMPLE_SERVICE_CALL_LOGGER',
+    HEADER_RESPONSE_KEY : 'x-hissitaito-id'
+};
